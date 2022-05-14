@@ -4,12 +4,27 @@ background-color: brown;
 color: chartreuse;
 }
 body{
-    background-color: rgb(126, 91, 91);
+    /* background-color: rgb(126, 91, 91); */
 }
 #butdiv2{
+    margin-left: 5%;
+    /* line-height: 100%; */
+    /* background-color: rgb(193, 86, 86); */
+    /* font-size: 150%; */
+    border: none;
+    padding: 0.1% 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 120%;
+    transition-duration: 0.4s;
 
-    background-color: red;
 }
+#butdiv2:hover {
+    padding: 3%;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    
+  }
 #div3{
     margin-right: 75%;
     position: relative;
@@ -21,3 +36,35 @@ body{
     position: absolute;
     font-family: fantasy;
 }
+#divmail {
+    position:fixed;
+    line-height: 150%;
+    top: 2%;
+
+}
+#alogin{
+    position:fixed;
+    color: green;
+    margin-right: 5px;
+    font-size: 150%;
+    right: 20%;
+    }
+
+#aregistr {
+    position:fixed;
+    color: red;
+    margin-left: 50px;
+    right: 10%;
+    font-size: 150%;
+}
+
+#aregistr:hover{
+    font-size: 165%;
+}
+#alogin:hover{
+    font-size: 165%;
+}
+/* .a{
+    margin-right: 50px;
+    text-align: center;
+} */
