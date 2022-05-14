@@ -1,0 +1,23 @@
+#div1
+{
+background-color: brown;
+color: chartreuse;
+}
+body{
+    background-color: rgb(126, 91, 91);
+}
+#butdiv2{
+
+    background-color: red;
+}
+#div3{
+    margin-right: 75%;
+    position: relative;
+    size: 5px;
+    border-style: solid;
+}
+#div4
+{
+    position: absolute;
+    font-family: fantasy;
+}
