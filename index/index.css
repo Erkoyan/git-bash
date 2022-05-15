@@ -50,6 +50,23 @@
     left: 1%;
     width: 2.5%;
   }
-  /* #topimg{
-      cent
-  } */
+  #topimg{
+    height: 200px;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    background-color: powderblue;
+    background-image: url("imgs/Screenshot_1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+  }
+ #leftbutton{
+     
+ }
+ #rightbutton{
+    padding-right: 5px;
+ }
