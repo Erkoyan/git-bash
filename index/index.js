@@ -1,6 +1,6 @@
-const http = require("http");
-http.createServer(function(req,res){
-    res.end("hellp")
-}).listen(3101,function(){
-    console.log("assus")
-});
+function myFunction(){
+    var img = document.createElement('img');
+
+    img.src = "imgs/Screenshot_1.png"
+    console.log(toString.img.src)
+}
