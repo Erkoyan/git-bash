@@ -4,27 +4,31 @@ background-color: brown;
 color: chartreuse;
 }
 body{
-    /* background-color: rgb(126, 91, 91); */
+    background-color: rgb(126, 91, 91);
 }
 #butdiv2{
     margin-left: 5%;
-    /* line-height: 100%; */
-    /* background-color: rgb(193, 86, 86); */
-    /* font-size: 150%; */
     border: none;
     padding: 0.1% 5px;
     text-align: center;
     display: inline-block;
     font-size: 120%;
     transition-duration: 0.4s;
+    /* position:fixed; */
+    /* line-height: 150%; */
+    top: 55%;
+      
 
 }
 #butdiv2:hover {
-    padding: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
     background-color: #4CAF50; /* Green */
     color: white;
     
   }
+
+  
 #div3{
     margin-right: 75%;
     position: relative;
@@ -68,3 +72,9 @@ body{
     margin-right: 50px;
     text-align: center;
 } */
+#icon {
+    position: fixed;
+    display: block;
+    top: 1%;
+    width: 2%;
+  }
