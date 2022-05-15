@@ -1,24 +1,12 @@
-#div1
-{
-background-color: brown;
-color: chartreuse;
-}
-body{
-    background-color: rgb(126, 91, 91);
-}
 #butdiv2{
     margin-left: 5%;
+    margin-top: 1%;
     border: none;
     padding: 0.1% 5px;
     text-align: center;
     display: inline-block;
     font-size: 120%;
     transition-duration: 0.4s;
-    /* position:fixed; */
-    /* line-height: 150%; */
-    top: 55%;
-      
-
 }
 #butdiv2:hover {
     padding-left: 1%;
@@ -27,23 +15,10 @@ body{
     color: white;
     
   }
-
-  
-#div3{
-    margin-right: 75%;
-    position: relative;
-    size: 5px;
-    border-style: solid;
-}
-#div4
-{
-    position: absolute;
-    font-family: fantasy;
-}
 #divmail {
     position:fixed;
     line-height: 150%;
-    top: 2%;
+    top: 1.52%;
 
 }
 #alogin{
@@ -68,13 +43,10 @@ body{
 #alogin:hover{
     font-size: 165%;
 }
-/* .a{
-    margin-right: 50px;
-    text-align: center;
-} */
 #icon {
     position: fixed;
     display: block;
-    top: 1%;
-    width: 2%;
+    top: 2.1%;
+    left: 1%;
+    width: 2.5%;
   }
