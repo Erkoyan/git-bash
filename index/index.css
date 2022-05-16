@@ -79,3 +79,12 @@
     height: 20px;
     width: 25px;
  }
+ #asus{
+    height: 200px;
+    width: 75px;
+    border: 3px solid green;
+    background-color: aqua;
+ }
+ span{
+     color: #4CAF50;
+ }
