@@ -1,12 +1,15 @@
-var caunt = 2
+var caunt = 2;
 function myFunction(){
-    var img = document.getElementById('topimg');
-
-    document.img.style.backgroundImage = "url('imgs/Screenshot_1.png')";
-img.src = "imgs/Screenshot_"+caunt+".png";
-    caunt++;
-    if(caunt == 4){
+    if (caunt == 2) {   
+    document.getElementById("topimg").style.backgroundImage = "url('imgs/Screenshot_2.png')"
+    caunt = 3;
+    }
+    else if (caunt == 3){
+        document.getElementById("topimg").style.backgroundImage = "url('imgs/Screenshot_3.png')"
         caunt = 1;
     }
-    // img.src = "imgs/Screenshot_"+caunt+".png";
+    else{
+        document.getElementById("topimg").style.backgroundImage = "url('imgs/Screenshot_1.png')"
+        caunt = 2;
+    }
 }
