@@ -3,6 +3,7 @@
     <head>
 <title>Yruq</title>
 <link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="divmail.css">
 <meta charset="UTF8">
 
     </head>
@@ -21,7 +22,14 @@
                 <button id="butdiv2">About us</button>
                 <button id="butdiv2">Contact us</button>
                 <div id = 'divmail'>
-                <a href="" id="alogin" class="a">login</a>
+                <a href="" id="alogin" class="a" onmouseover="delay1 = setTimeout('document.getElementById(\'quick-login11\').style.visibility=\'visible\'', 5);">login</a>
+                <div id="divmail">
+                    <p>mail</p>
+                    <input type="text">
+                    <p>password</p>
+                    <input class="pas" value="asus">
+                </div>
+
                 <a href="" id="aregistr" class="a">registr</a>
                 </div>
 
@@ -45,6 +53,7 @@
 
 <script src="index.js"></script>
 <script src="addImg.js"></script>
+<script src="registr.js"></script>
 
     </body>
 </html>
