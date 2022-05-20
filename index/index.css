@@ -18,9 +18,21 @@
 #divmail {
     position:fixed;
     line-height: 150%;
-    top: 1.52%;
+    margin-top: 75px;
+    visibility: hidden;
 
 }
+#divreg{
+    visibility: hidden;
+    position: fixed;
+    line-height: 250%;
+    margin-top: 75px;
+    left: 75%;
+
+}
+/* #alogin:hover + #divmail{
+    visibility : visible;
+} */
 #alogin{
     position:fixed;
     color: green;

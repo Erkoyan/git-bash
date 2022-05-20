@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head>
-<title>Yruq</title>
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="divmail.css">
-<meta charset="UTF8">
 
-    </head>
+<head>
+    <title>Yruq</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="divmail.css">
+    <meta charset="UTF8">
 
-    <body>
-        <div id="gendiv">
-            <div >
-                <img id="icon" src="imgs/IMG_20220515_182502.jpg" alt="">
-            </div>
+</head>
+
+<body>
+    <div id="gendiv">
+        <div>
+            <img id="icon" src="imgs/IMG_20220515_182502.jpg" alt="">
+        </div>
         <div id="div2">
             <div id="pervidiv">
-                
+
                 <button id="butdiv2">Men</button>
                 <button id="butdiv2">Women</button>
                 <button id="butdiv2">Children</button>
                 <button id="butdiv2">About us</button>
                 <button id="butdiv2">Contact us</button>
-                <div id = 'divmail'>
-                <a href="" id="alogin" class="a" onmouseover="delay1 = setTimeout('document.getElementById(\'quick-login11\').style.visibility=\'visible\'', 5);">login</a>
-                <div id="divmail">
+                <a href="#" id="alogin" class="a"
+                    onmouseover="delay1 = setTimeout('document.getElementById(\'divmail\').style.visibility=\'visible\'',5)"
+                    onmouseover="delay2 = setTimeout('document.getElementById(\'divreg\').style.visibility=\'hidden\'',5)"
+                    
+                    onmouseout="clearTimeout(delay1)"
+                    onmouseout="clearTimeout(delay2)"
+                    
+                    >login</a>
+                <div id="divmail" ;>
                     <p>mail</p>
                     <input type="text">
                     <p>password</p>
-                    <input class="pas" value="asus">
+                    <input class="pas" type="password">
                 </div>
 
-                <a href="" id="aregistr" class="a">registr</a>
+                <a href="#" id="aregistr" class="a"
+                    onmouseover="delay3 = setTimeout('document.getElementById(\'divreg\').style.visibility=\'visible\'',5)"
+                    onmouseover="delay4 = setTimeout('document.getElementById(\'divmail\').style.visibility=\'hidden\'',5)"
+
+                    onmouseout="clearTimeout(delay3)"
+                    
+                    onmouseout="clearTimeout(delay4)">registr</a>
+
+                <div id="divreg">
+                    <p>mail</p>
+                    <input type="text">
+                    <p>name</p>
+                    <input class="regname" type="">
+                    <p>surnam</p>
+                    <input class="ressurnam" type="text">
+                    <p>password</p>
+                    <input class="passReg" type="password">
+                    <p>R.password</p>
+                    <input class="rPassReg" type="password">
                 </div>
-
-
             </div>
-        </div>   
-        <div id = "topimg">
-            <button id="leftbutton" onclick="myFunction()"><</button>
-           
-            <button id="rightbutton" onclick="myFunction()">></button>
+
+
+        </div>
+        <div id="topimg">
+            <button id="leftbutton" onclick="myFunction()">
+                << /button>
+
+                    <button id="rightbutton" onclick="myFunction()">></button>
         </div>
 
-      
+
 
         <div id="asus">
         </div>
@@ -51,9 +77,10 @@
 
     </div>
 
-<script src="index.js"></script>
-<script src="addImg.js"></script>
-<script src="registr.js"></script>
+    <script src="index.js"></script>
+    <script src="addImg.js"></script>
+    <script src="registr.js"></script>
 
-    </body>
+</body>
+
 </html>
